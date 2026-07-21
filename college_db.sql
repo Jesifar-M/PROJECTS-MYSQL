@@ -12,11 +12,10 @@ INSERT INTO students (id, name, age, department, grade) VALUES
 (3, 'Arjun Varma', 22, 'Mathematics', 75),
 (4, 'Sneha Joseph', 20, 'Computer Science', 85);
 
-
 SELECT * FROM students WHERE age > 20;
 
 SELECT * FROM students WHERE department = 'Computer Science' OR department = 'Physics';
 
 SELECT * FROM students WHERE grade = 90;
 
-SELECT * FROM students WHERE grade BETWEEN 70 AND 90
+SELECT * FROM students WHERE grade BETWEEN 70 AND 90;
